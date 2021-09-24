@@ -199,9 +199,9 @@ function GetStartingPositionCiv(civID)
 				local plot = Map:GetPlotXY(y, x)
 				local numCheck
 				-- Check if there is another civ nearby
-				numCheck = CheckVicinity(10, "StartingPlot", 0, y, x)
+				numCheck = CheckVicinity(7, "StartingPlot", 0, y, x)
 				--end
-				-- return plot if no one is too close (<10)
+				-- return plot if no one is too close (<7 tiles)
 				if not numCheck then
 					return plot
 				else
@@ -210,7 +210,6 @@ function GetStartingPositionCiv(civID)
 
 			end
 		else
-			--print (" Warning : " .. row.Type .. " is not in Civilizations !" )
 		end
 	end
 	print (" No TSL for : " .. civID)
@@ -264,8 +263,6 @@ end
 function PopulateWorld ()
 	print("-------------------------------")
 	print("Hello World, ready to be populated ?")
-	-- the CheckVicinity test will draw a round of fish tile in the middle of south atlantic ocean on giant map...
-	--CheckVicinity(5, "Test", 0, 10, 10)
 	print("-------------------------------")
 	print("Set major civs Starting Plots")
 
