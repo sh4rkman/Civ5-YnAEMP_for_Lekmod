@@ -250,11 +250,10 @@
 			<X>14</X>
 			<Y>68</Y>
 		</Replace>
-		<!-- Civ: Boers - Start: Cap Town -->
+		<!-- Civ: Boers - Start: Pretoria -->
 		<Replace>
 			<Type>CIVILIZATION_LEKBOERS</Type>
-			<X>26</X>
-			<Y>10</Y>
+			<X>31</X><Y>13</Y>
 		</Replace>
 		<Replace>
 			<Type>CIVILIZATION_BRUNE</Type>
@@ -266,10 +265,10 @@
 			<X>29</X>
 			<Y>62</Y>
 		</Replace>
+		<!-- Civ: Burma - Start: Yangon  -->		
 		<Replace>
 			<Type>CIVILIZATION_BURMA</Type>
-			<X>70</X>
-			<Y>43</Y>
+			<X>72</X><Y>42</Y>
 		</Replace>
 		<Replace>
 			<Type>CIVILIZATION_CANADA</Type>
@@ -296,10 +295,10 @@
 			<X>42</X>
 			<Y>67</Y>
 		</Replace>
+		<!-- Civ: Goths - Start: Ahreimar (modern-day Ukrain) -->			
 		<Replace>
 			<Type>CIVILIZATION_GOTH</Type>
-			<X>13</X>
-			<Y>60</Y>
+			<X>36</X><Y>67</Y>
 		</Replace>
 		<Replace>
 			<Type>CIVILIZATION_HITTITE</Type>
@@ -454,8 +453,7 @@
 		</Replace>
 		<Replace>
 			<Type>CIVILIZATION_UC_TURKEY</Type>
-			<X>36</X>
-			<Y>58</Y>
+			<X>34</X><Y>58</Y>
 		</Replace>
 		<!--v25 Civs-->
 		<Replace>

@@ -67,7 +67,7 @@
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_IFE</Type>
-			<X>1ç</X><Y>34</Y>
+			<X>20</X><Y>34</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_KINSHASA</Type>
@@ -362,10 +362,10 @@
 			<X>18</X>
 			<Y>64</Y>
 		</Row>
+		<!-- Renammed Thimphu -->			
 		<Row>
 			<Type>MINOR_CIV_KIEV</Type>
-			<X>34</X>
-			<Y>68</Y>
+			<X>69</X><Y>52</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_RIGA</Type>
@@ -419,10 +419,10 @@
 			<X>70</X>
 			<Y>74</Y>
 		</Row>
+		<!-- Renammed Kampala -->			
 		<Row>
 			<Type>MINOR_CIV_BYBLOS</Type>
-			<X>36</X>
-			<Y>52</Y>
+			<X>33</X><Y>29</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_MALACCA</Type>
