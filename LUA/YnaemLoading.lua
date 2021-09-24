@@ -13,13 +13,14 @@ include( "YnaemFunctions" )
 -- common functions
 ----------------------------------
 
+
 function CheckVicinity(minDistance, type, value, x, y)
 	-- Ynaem borrowed this from AssignStartingPlots.lua
 	-- check the plots around a central plot
 	-- available check type are
-	-- StartingPlot : return the number of starting plots already set around this plot
-	-- RequestedResource : return the available plots to put a ressource in a table, and true if the resource was already at checked distance in this plot:area()
-	-- Test : used to test the function by creating a circle of fish at given position
+		-- StartingPlot : return the number of starting plots already set around this plot
+		-- RequestedResource : return the available plots to put a ressource in a table, and true if the resource was already at checked distance in this plot:area()
+		-- Test : used to test the function by creating a circle of fish at given position
 
 	local iW, iH = Map.GetGridSize()
 	local wrapX = Map:IsWrapX()
@@ -196,8 +197,17 @@ function GetStartingPositionCiv(civID)
 				print (" Civtype : " .. row.Type)
 				-- X,Y still inversed...
 				local plot = Map:GetPlotXY(y, x)
-				CheckVicinity(10, "StartingPlot", 0, y, x)
-				return plot
+				local numCheck
+				-- Check if there is another civ nearby
+				numCheck = CheckVicinity(10, "StartingPlot", 0, y, x)
+				--end
+				-- return plot if no one is too close (<10)
+				if not numCheck then
+					return plot
+				else
+					return false
+				end
+
 			end
 		else
 			--print (" Warning : " .. row.Type .. " is not in Civilizations !" )
@@ -260,6 +270,7 @@ function PopulateWorld ()
 	print("Set major civs Starting Plots")
 
 	-- place major civs first
+	local toRemove = {}
 	for i = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
 		local player = Players[i]
 		local civID = player:GetCivilizationType() 
@@ -267,8 +278,12 @@ function PopulateWorld ()
 		print ("Search starting position for Civ : " .. civID )
 		local plot = GetStartingPositionCiv(civID)
 		if plot then
-			--print ("Found starting position for Civ : " .. civID )
+			print ("Found starting position")
 			player:SetStartingPlot(plot)
+		else 
+			--no random placement allowed, mark civ to be removed
+			print("Major civ marked for removing : " .. civID)
+			table.insert(toRemove, "major"..civID.."tr")
 		end
     end
 
@@ -280,7 +295,6 @@ function PopulateWorld ()
 		print("Set minor civs Starting Plots")
 
 		-- place minor civs
-		local toRemove = {}
 		for i = GameDefines.MAX_MAJOR_CIVS, GameDefines.MAX_CIV_PLAYERS - 1 do
 			local player = Players[i]
 			local minorCivID = player:GetMinorCivType() 

@@ -68,12 +68,23 @@ function FinalizeCityState(numMinorCivs)
 			-- was marked for removing ?
 			elseif string.find(modUserData.GetValue("ToRemove"), "minor"..minorCivID.."tr") then
 				YnaemRemoveCiv (iPlayer)
-				print ("kill marked civ : " .. minorCivID)
+				print ("kill marked minor civ : " .. minorCivID)
+				
 			else
 				table.insert(ynaemSelection, iPlayer)
 			end
 		end
 	end
+
+	for iPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
+		local player = Players[iPlayer]
+		local majorCivID = player:GetCivilizationType()
+			if string.find(modUserData.GetValue("ToRemove"), "major"..majorCivID.."tr") then
+				YnaemRemoveCiv (iPlayer)
+				print ("kill marked civ : " .. majorCivID)
+			end
+	end
+
 
 	print ("Actual Number of City States = " .. #ynaemSelection )
 		
