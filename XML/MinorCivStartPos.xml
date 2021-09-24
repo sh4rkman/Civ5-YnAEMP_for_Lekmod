@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!-- ++++++++++++++++++++++++++++++ -->
-	<!-- Earth Giant map start position -->
-	<!-- ++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- 								Giant Earth map start position -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 	<MinorCiv_YagemStartPosition>
 		<Row>
 			<Type>MINOR_CIV_EDINBURGH</Type>
@@ -54,21 +54,20 @@
 			<X>30</X>
 			<Y>78</Y>
 		</Row>
+		<!-- Renammed Mohenjo-Daro -->
 		<Row>
 			<Type>MINOR_CIV_TYRE</Type>
-			<X>36</X>
-			<Y>52</Y>
+			<X>54</X><Y>49</Y>
 		</Row>
 		<!-- keep bad naming for retro-compatibility -->
+		<!-- Renammed Mohenjo-Daro -->
 		<Row>
 			<Type>MINOR_TYRE</Type>
-			<X>36</X>
-			<Y>52</Y>
+			<X>54</X><Y>49</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_IFE</Type>
-			<X>18</X>
-			<Y>33</Y>
+			<X>1ç</X><Y>34</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_KINSHASA</Type>
@@ -90,25 +89,25 @@
 			<X>52</X>
 			<Y>57</Y>
 		</Row>
+		<!-- Renammed Caracas -->
 		<Row>
 			<Type>MINOR_CIV_ALMATY</Type>
-			<X>60</X>
-			<Y>67</Y>
+			<X>159</X><Y>40</Y>
 		</Row>
+		<!-- Renammed Sarayevo -->		
 		<Row>
 			<Type>MINOR_CIV_LHASA</Type>
-			<X>70</X>
-			<Y>55</Y>
+			<X>26</X><Y>60</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_SEOUL</Type>
 			<X>89</X>
 			<Y>61</Y>
 		</Row>
+		<!-- Renammed Harappa (Pakistan) -->
 		<Row>
 			<Type>MINOR_CIV_HANOI</Type>
-			<X>78</X>
-			<Y>46</Y>
+			<X>58</X><Y>53</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_KUALA_LUMPUR</Type>
@@ -162,23 +161,23 @@
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_GENOA</Type>
-			<X>18</X>
-			<Y>61</Y>
+			<X>30</X><Y>76</Y>
 		</Row>
+		<!-- Renamed Ljubljana -->				
 		<Row>
 			<Type>MINOR_CIV_FLORENCE</Type>
-			<X>20</X>
-			<Y>59</Y>
+			<X>23</X>
+			<Y>63</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_COPENHAGEN</Type>
 			<X>22</X>
 			<Y>75</Y>
 		</Row>
+		<!-- Renammed Reykjavik -->				
 		<Row>
 			<Type>MINOR_CIV_BUCHAREST</Type>
-			<X>30</X>
-			<Y>63</Y>
+			<X>2</X><Y>83</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_BELGRADE</Type>
@@ -189,11 +188,11 @@
 			<Type>MINOR_CIV_VIENNA</Type>
 			<X>22</X>
 			<Y>65</Y>
-		</Row>		
+		</Row>
+		<!-- Renammed Baku -->	
 		<Row>
 			<Type>MINOR_CIV_BRUSSELS</Type>
-			<X>15</X>
-			<Y>69</Y>
+			<X>45</X><Y>60</Y>
 		</Row>		
 		<Row>
 			<Type>MINOR_CIV_MONACO</Type>
@@ -249,15 +248,15 @@
 			<X>3</X>
 			<Y>40</Y>
 		</Row>
+		<!-- Renamed Islamabad -->		
 		<Row>
 			<Type>MINOR_CIV_QUEBEC_CITY</Type>
-			<X>156</X>
-			<Y>71</Y>
+			<X>61</X><Y>53</Y>
 		</Row>
+		<!-- Phnom Penh -->
 		<Row>
 			<Type>MINOR_CIV_SYDNEY</Type>
-			<X>103</X>
-			<Y>11</Y>
+			<X>78</X><Y>38</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_ROTTERDAM</Type>
@@ -274,10 +273,10 @@
 			<X>66</X>
 			<Y>52</Y>
 		</Row>
+		<!-- Renammed Vaduz -->
 		<Row>
 			<Type>MINOR_CIV_ANTWERP</Type>
-			<X>15</X>
-			<Y>69</Y>
+			<X>19</X><Y>65</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_CAHOKIA</Type>
@@ -294,65 +293,69 @@
 			<X>83</X>
 			<Y>48</Y>
 		</Row>
+		<!-- renammed Tapei -->
 		<Row>
 			<Type>MINOR_CIV_JERUSALEM</Type>
-			<X>36</X>
-			<Y>50</Y>
+			<X>89</X><Y>50</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_LA_VENTA</Type>
 			<X>144</X>
 			<Y>48</Y>
 		</Row>
+		<!-- renammed Port au Prince (Haiti) -->
 		<Row>
 			<Type>MINOR_CIV_MANILA</Type>
-			<X>87</X>
-			<Y>41</Y>
+			<X>155</X><Y>46</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_MARRAKECH</Type>
 			<X>6</X>
 			<Y>48</Y>
 		</Row>
+		
+		<!-- Renammed Djibouti -->
 		<Row>
 			<Type>MINOR_CIV_MILAN</Type>
-			<X>19</X>
-			<Y>62</Y>
+			<X>38</X><Y>36</Y>
 		</Row>
+
 		<Row>
 			<Type>MINOR_CIV_MOMBASA</Type>
 			<X>37</X>
 			<Y>27</Y>
 		</Row>
+		<!-- Renammed Luxembourg -->				
 		<Row>
 			<Type>MINOR_CIV_PRAGUE</Type>
-			<X>23</X>
-			<Y>67</Y>
+			<X>15</X><Y>66</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_VALLETTA</Type>
 			<X>21</X>
 			<Y>51</Y>
 		</Row>
+
 		<Row>
 			<Type>MINOR_CIV_VATICAN_CITY</Type>
-			<X>21</X>
-			<Y>58</Y>
+			<X>23</X>
+			<Y>63</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_WITTENBERG</Type>
 			<X>21</X>
 			<Y>68</Y>
 		</Row>
+		<!-- Renammed Chaco Canyon -->
 		<Row>
 			<Type>MINOR_CIV_YEREVAN</Type>
-			<X>42</X>
-			<Y>57</Y>
+			<X>139</X>
+			<Y>59</Y>
 		</Row>
+		<!-- Renammed Maseru -->		
 		<Row>
 			<Type>MINOR_CIV_ZANZIBAR</Type>
-			<X>38</X>
-			<Y>24</Y>
+			<X>31</X><Y>10</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_ZURICH</Type>
@@ -380,31 +383,32 @@
 			<X>50</X>
 			<Y>47</Y>
 		</Row>
+		<!-- Renammed Lagos -->
 		<Row>
 			<Type>MINOR_CIV_MELBOURNE</Type>
-			<X>100</X>
-			<Y>9</Y>
+			<X>18</X><Y>33</Y>
 		</Row>
+		<!-- Renammed Bangkok -->
 		<Row>
 			<Type>MINOR_CIV_UR</Type>
-			<X>45</X>
-			<Y>48</Y>
+			<X>75</X><Y>40</Y>
 		</Row>
+		<!-- Renammed Havana -->
 		<Row>
 			<Type>MINOR_CIV_SOFIA</Type>
-			<X>28</X>
-			<Y>61</Y>
+			<X>149</X><Y>51</Y>
 		</Row>
+		<!-- Renammed Montevideo -->		
 		<Row>
 			<Type>MINOR_CIV_KABUL</Type>
-			<X>53</X>
-			<Y>55</Y>
+			<X>163</X><Y>17</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_MBANZA_KONGO</Type>
 			<X>24</X>
 			<Y>23</Y>
 		</Row>
+		<!-- Renammed Nicosia -->	
 		<Row>
 			<Type>MINOR_CIV_BUENOS_AIRES</Type>
 			<X>161</X>
@@ -425,15 +429,15 @@
 			<X>77</X>
 			<Y>32</Y>
 		</Row>
+		<!-- Renammed Gaborone -->		
 		<Row>
 			<Type>MINOR_CIV_ANTANANARIVO</Type>
-			<X>42</X>
-			<Y>17</Y>
+			<X>30</X><Y>15</Y>
 		</Row>
+		<!-- Renammed Lima -->
 		<Row>
 			<Type>MINOR_CIV_VANCOUVER</Type>
-			<X>130</X>
-			<Y>73</Y>
+			<X>151</X><Y>26</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_PANAMA_CITY</Type>
@@ -446,9 +450,9 @@
 			<Y>66</Y>
 		</Row>
 	</MinorCiv_YagemStartPosition>
-	<!-- +++++++++++++++++++++++++++++ -->
-	<!-- Earth Huge map start position -->
-	<!-- +++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- 								Huge Earth map start position -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 	<MinorCiv_YahemStartPosition>
 		<Row>
 			<Type>MINOR_CIV_EDINBURGH</Type>
@@ -515,10 +519,10 @@
 			<X>83</X>
 			<Y>52</Y>
 		</Row>
+		<!-- Renammed Caracas -->
 		<Row>
 			<Type>MINOR_CIV_ALMATY</Type>
-			<X>86</X>
-			<Y>56</Y>
+			<X>33</X><Y>38</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_LHASA</Type>
@@ -592,8 +596,7 @@
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_GENOA</Type>
-			<X>61</X>
-			<Y>56</Y>
+			<X>30</X><Y>76</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_FLORENCE</Type>
@@ -610,6 +613,7 @@
 			<X>62</X>
 			<Y>63</Y>
 		</Row>
+		<!-- Renammed Reykjavik -->		
 		<Row>
 			<Type>MINOR_CIV_BUCHAREST</Type>
 			<X>68</X>
@@ -672,10 +676,10 @@
 			<X>52</X>
 			<Y>39</Y>
 		</Row>
+		<!-- Renammed Ilsamabad -->
 		<Row>
 			<Type>MINOR_CIV_QUEBEC_CITY</Type>
-			<X>35</X>
-			<Y>61</Y>
+			<X>58</X><Y>55</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_SYDNEY</Type>
@@ -809,6 +813,7 @@
 			<Y>40</Y>
 		</Row>
 		<!-- damn bad naming here firaxis !!! -->
+	
 		<Row>
 			<Type>MINOR_TYRE</Type>
 			<X>47</X>
@@ -859,6 +864,7 @@
 			<X>38</X>
 			<Y>26</Y>
 		</Row>
+		<!-- Renammed Tallinn -->
 		<Row>
 			<Type>MINOR_CIV_GENOA</Type>
 			<X>35</X>
@@ -874,6 +880,7 @@
 			<X>37</X>
 			<Y>35</Y>
 		</Row>
+		<!-- Renammed Reykjavik -->				
 		<Row>
 			<Type>MINOR_CIV_BUCHAREST</Type>
 			<X>43</X>
@@ -969,20 +976,20 @@
 			<X>65</X>
 			<Y>31</Y>
 		</Row>
+		<!-- renammed Tapei (Taiwan) -->
 		<Row>
 			<Type>MINOR_CIV_JERUSALEM</Type>
-			<X>46</X>
-			<Y>19</Y>
+			<X>109</X><Y>44</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_LA_VENTA</Type>
 			<X>6</X>
 			<Y>26</Y>
 		</Row>
+		<!-- renammed Port au Prince (Haiti) -->
 		<Row>
 			<Type>MINOR_CIV_MANILA</Type>
-			<X>70</X>
-			<Y>34</Y>
+			<X>32</X><Y>43</Y>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_MARRAKECH</Type>
@@ -1034,6 +1041,7 @@
 			<X>36</X>
 			<Y>28</Y>
 		</Row>
+		<!-- Renammed Thimphu -->
 		<Row>
 			<Type>MINOR_CIV_KIEV</Type>
 			<X>45</X>
@@ -1135,6 +1143,7 @@
 			<X>37</X>
 			<Y>55</Y>
 		</Row>
+		<!-- Renammed Reykjavik -->				
 		<Row>
 			<Type>MINOR_CIV_BUCHAREST</Type>
 			<X>50</X>
@@ -1198,6 +1207,7 @@
 			<X>1</X>
 			<Y>1</Y>
 		</Row>
+		<!-- Renammed Taipei (Taiwan) -->
 		<Row>
 			<Type>MINOR_CIV_JERUSALEM</Type>
 			<X>62</X>
@@ -1258,6 +1268,7 @@
 			<X>76</X>
 			<Y>13</Y>
 		</Row>
+		<!-- Renammed Havana -->
 		<Row>
 			<Type>MINOR_CIV_SOFIA</Type>
 			<X>49</X>
@@ -1782,6 +1793,7 @@
 			<X>21</X>
 			<Y>54</Y>
 		</Row>
+		<!-- Renammed Reykjavik -->				
 		<Row>
 			<Type>MINOR_CIV_BUCHAREST</Type>
 			<X>57</X>
@@ -1847,6 +1859,7 @@
 			<X>62</X>
 			<Y>39</Y>
 		</Row>
+		<!-- Renammed Mohenjo-daro -->
 		<Row>
 			<Type>MINOR_CIV_TYRE</Type>
 			<X>62</X>
@@ -1892,11 +1905,13 @@
 			<X>2</X>
 			<Y>54</Y>
 		</Row>
+		<!-- renammed Port au Prince (Haiti) -->
 		<Row>
 			<Type>MINOR_CIV_MANILA</Type>
 			<X>88</X>
 			<Y>35</Y>
 		</Row>
+		<!-- Renammed Gaborone -->	
 		<Row>
 			<Type>MINOR_CIV_ANTANANARIVO</Type>
 			<X>66</X>
@@ -1982,6 +1997,7 @@
 			<X>60</X>
 			<Y>52</Y>
 		</Row>
+		<!-- Renammed Nicosia -->				
 		<Row>
 			<Type>MINOR_CIV_BUENOS_AIRES</Type>
 			<X>27</X>
@@ -1997,6 +2013,7 @@
 			<X>72</X>
 			<Y>43</Y>
 		</Row>
+		<!-- Renammed Havana -->
 		<Row>
 			<Type>MINOR_CIV_SOFIA</Type>
 			<X>56</X>
@@ -2007,6 +2024,7 @@
 			<X>66</X>
 			<Y>38</Y>
 		</Row>
+		<!-- Renammed Lagos -->		
 		<Row>
 			<Type>MINOR_CIV_MELBOURNE</Type>
 			<X>100</X>
