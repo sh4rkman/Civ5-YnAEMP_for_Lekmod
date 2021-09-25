@@ -469,12 +469,17 @@ ScreenOptions = {
 					table.insert(civs, {
 						CivID = row.CivID,
 						LeaderID = row.LeaderID,
-						LeaderDescription = row.LeaderDescription,
-						ShortDescription = row.ShortDescription,
+						LeaderDescription = Locale.Lookup(row.LeaderDescription),
+						ShortDescription = Locale.Lookup(row.ShortDescription),
 						Description = row.Description,
 					});
+					--print(" Inserting Civ entry " .. Locale.Lookup(row.ShortDescription))
 				end
 			end
+
+			-- Sort the Civ table by Alphabetical order
+			table.sort(civs, function(a,b) return Locale.Compare(a.ShortDescription, b.ShortDescription) == -1; end);
+			
 			
 			return civs;
 		end
