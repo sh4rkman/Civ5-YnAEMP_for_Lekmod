@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!-- Ynaemp -->
+	<!-- Set the min tiles range betwee city to 5 (from 3) to avoid city spamming by AI -->
 	<Defines>
 		<Update>
 			<Where Name="MIN_CITY_RANGE"/>
 			<Set>
-				<Value>2</Value>
+				<Value>5</Value>
 			</Set>			
 		</Update>
 	</Defines>
