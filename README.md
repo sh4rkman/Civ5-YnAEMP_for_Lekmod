@@ -1,6 +1,6 @@
 # YnAEMP for Lekmod
 
-Yet (not) Another Earth Map Pack version compatible with [Lekmod](https://docs.google.com/document/d/18tsjg2C1wKA7I41GktDRr6R83eUrhn4FHi9EUEtpKvI/edit).
+A Yet (not) Another Earth Map Pack version compatible with [Lekmod](https://docs.google.com/document/d/18tsjg2C1wKA7I41GktDRr6R83eUrhn4FHi9EUEtpKvI/edit).
 
 This Civilization V mod is an altered version of Gedemon's last version, with a few features :
 - True Start Location for the [34 new civs](https://docs.google.com/document/d/1Yy9z-pe9D4S_poTCRzLxmWCalY3QAo2MhGbuV17HmYM/edit) from Lekmod 29.1 (Giant Earth only for the moment)
@@ -29,15 +29,13 @@ Download the lastest release and unpack it in your Civilization V mod folder :
 
 # Map Supported for now
 
-This custom xml files add True Starts for the following maps :
+This mod contain custom files (CivilizationsStartPos.xml and MinorCivStartPos.xml) that only add True Start Locations for the Yet (not) Another Giant Earth Map. More maps will be coming if i find the motivation.
 
 | Map | Size | Supported |
 | :- | :-: | :-: |
-| Giant Earth Map | 180x94 | Yes |
-| Huge Earth Map | 128x80 | <ul><li>[x] item1</li></ul> |
-| Large Earth Map | 104x64 | No |
-| Standard Earth | 82x50 | No |
-| Large Europe | 79x73 | No |
+| Giant Earth Map | 180x94 | :heavy_check_mark: |
+| Giant Europe map? |  | :heavy_multiplication_x: |
+| Giant South-East Asia map ? |  | :heavy_multiplication_x: |
 
 
 
@@ -62,7 +60,3 @@ This custom xml files add True Starts for the following maps :
     - Now sorting custom civilizations by alphabetical order at game setup
 
 
-
-# ToDo
-
-☐ Change the 
