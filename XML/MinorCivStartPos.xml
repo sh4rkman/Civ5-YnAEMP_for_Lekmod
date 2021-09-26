@@ -84,10 +84,10 @@
 			<X>40</X>
 			<Y>31</Y>
 		</Row>
+		<!-- Renammed Dubai -->		
 		<Row>
 			<Type>MINOR_CIV_SAMARKAND</Type>
-			<X>52</X>
-			<Y>57</Y>
+			<X>49</X><Y>45</Y>
 		</Row>
 		<!-- Renammed Caracas -->
 		<Row>
