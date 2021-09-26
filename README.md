@@ -44,7 +44,7 @@ This mod contain custom files (CivilizationsStartPos.xml and MinorCivStartPos.xm
 **v1.0** _(Sept. 26 2021)_ :
 - Added Lekmod compatibility for YnAEMP :
 	- Added TSL for the 34 new civs from Lekmod
-	- Corrected
+	- Corrected around 20 City States TSL modified by lekmod
 - Giant Earth Map : 
 	- Added Fountain of Youth in Florida 
 	- Added more hills in Himalayas
