@@ -66,8 +66,7 @@
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_OTTOMAN</Type>
-			<X>37</X>
-			<Y>58</Y>
+			<X>31</X><Y>59</Y>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_PERSIA</Type>
@@ -136,8 +135,7 @@
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_BYZANTIUM</Type>
-			<X>31</X>
-			<Y>59</Y>
+			<X>31</X><Y>59</Y>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_CARTHAGE</Type>
@@ -221,8 +219,7 @@
 		</Replace>
 		<Replace>
 			<Type>CIVILIZATION_LITE_AKKAD</Type>
-			<X>40</X>
-			<Y>52</Y>
+			<X>43</X><Y>50</Y>
 		</Replace>
 		<Replace>
 			<Type>CIVILIZATION_ARGENTINA</Type>
