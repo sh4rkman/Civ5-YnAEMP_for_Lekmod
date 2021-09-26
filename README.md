@@ -54,8 +54,8 @@ This mod contain custom files (CivilizationsStartPos.xml and MinorCivStartPos.xm
 	- Added a few jungle/marshes tiles in Vietnam
 	- Ottomans and Byzantium now start west side of Bosphorus when "Bosphorus is a sea" is checked
 - TSL and civ distribution :
-	- Added a rule so that no civ can spawn close to each others : a civ with a TSL <7 tiles to another is deleted
-	- Added a rule so that no civ can place a city less than 6 tiles away from another city
+	- Added a rule so that no civ can spawn close to each others : a civ with a TSL less than 7 tiles away from another is deleted
+	- Added a rule so that no civ can place a city less than 6 tiles away from another city to avoid infinite city sprawl by the AI
 - MISC 
     - Now sorting custom civilizations by alphabetical order at game setup
 
