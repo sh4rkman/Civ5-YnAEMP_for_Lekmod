@@ -63,14 +63,11 @@ function RefreshDropDownGameOptions()
 	--local options = {};
 	local mapID = modUserData.GetValue ("MapID")
 	local options = g_MapPulldownOptions[mapID]
-
-
-	
 	local sortedOptions = {};
+	
 	for k,v in pairs(options) do
 		table.insert(sortedOptions, v);
 	end
-	 
 	-- Sort the options
 	table.sort(sortedOptions, function(a, b) 
 		if(a.SortPriority == b.SortPriority) then
@@ -82,7 +79,6 @@ function RefreshDropDownGameOptions()
 	
 	-- Update the UI!
 	for _, option in ipairs(sortedOptions) do
-	
 		local gameOption = g_DropDownOptionsManager:GetInstance();
 				
 		gameOption.OptionName:SetText(option.Name);

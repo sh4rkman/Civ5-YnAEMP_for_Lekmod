@@ -98,7 +98,7 @@ end
 -- x, y are plot coordinate, replX and replY the replacement plot for any civ starting here
 -- riverX, riverY are the coordinate of the plot NW or W to the strait as a river (see position)
 g_BosphorusPlot = { 
-	[GIANT_EARTH] = {x=31, y=59, replX=32, replY=59, riverX=31, riverY=60, position = "NW"},
+	[GIANT_EARTH] = {x=31, y=59, replX=31, replY=60, riverX=31, riverY=60, position = "NW"},
 	[HUGE_EARTH] = {x=69, y=54, replX=69, replY=53, riverX=69, riverY=54, position = "NW"},
 	[STANDARD_CORDIFORM_EARTH] = {x=45, y=24, replX=45, replY=23, riverX=44, riverY=24, position = "W"},
 	[LARGE_EUROPE] = {x=53, y=31, replX=54, replY=31, riverX=53, riverY=31, position = "W-NW"},
@@ -219,6 +219,8 @@ MINOR_PLACEMENT = 1
 BOSPHORUS = 2
 -- City States minimum distance
 MINOR_DISTANCE = 3
+-- Civ minimum distance
+MAJOR_DISTANCE = 7
 -- Remove United States
 NO_US = 4
 -- Resources option
@@ -312,7 +314,7 @@ g_MapPulldownOptions = {
 		Disabled = false,
 		DefaultValue = 1,
 		SortPriority = 2,
-		Values = MinorPlacementValues -- mod dependancy for these values, see the MOD Dependancy section above
+		Values = MinorPlacementValues, -- mod dependancy for these values, see the MOD Dependancy section above
 	},
 	[MINOR_DISTANCE] = {
 			ID = MINOR_DISTANCE,
@@ -510,7 +512,7 @@ g_MapPulldownOptions = {
 			ToolTip = "Resources quantity",
 			Disabled = false,
 			DefaultValue = 3,
-			SortPriority = 3,
+			SortPriority = 4,
 			Values = { 
 				{ Name	= "Poor", ToolTip = "Resources are extremly rare", Value = RESOURCE_POOR,},
 				{ Name	= "Sparse", ToolTip = "Less resources", Value = RESOURCE_SPARSE,},

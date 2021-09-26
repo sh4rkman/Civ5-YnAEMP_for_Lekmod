@@ -199,7 +199,7 @@ function GetStartingPositionCiv(civID)
 				local plot = Map:GetPlotXY(y, x)
 				local numCheck
 				-- Check if there is another civ nearby
-				numCheck = CheckVicinity(7, "StartingPlot", 0, y, x)
+				numCheck = CheckVicinity(MAJOR_DISTANCE, "StartingPlot", 0, y, x)
 				--end
 				-- return plot if no one is too close (<7 tiles)
 				if not numCheck then
