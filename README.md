@@ -18,7 +18,7 @@ See complete changelog below.
 
 Download the [lastest release](https://github.com/sh4rkman/Civ5-YnAEMP_for_Lekmod/releases) and unpack it in your Civilization V mod folder :  
 
-	- C:\Users\XXXX\Documents\My Games\Sid Meier's Civilization 5\MODS
+	C:\Users\XXXX\Documents\My Games\Sid Meier's Civilization 5\MODS
 
 ![MODS Folder](https://i.imgur.com/OtEsU3M.png)
 
